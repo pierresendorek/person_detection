@@ -27,12 +27,3 @@ class VideoLoader:
     def get_frames_per_second(self):
         return self.cap.get(cv2.CAP_PROP_FPS)
 
-
-
-if __name__ == "__main__":
-    data_loader = VideoLoader("/home/pierresendorek/projets/job/aive/data/MISS DIOR – The new Eau de Parfum.mp4")
-    frames = data_loader.get_frame_generator()
-    print(data_loader.get_frames_per_second())
-    #for i, frame in enumerate(frames):
-    #    print(i, frame.shape)
-

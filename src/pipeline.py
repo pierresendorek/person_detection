@@ -22,10 +22,3 @@ class VideoProcessingPipeline:
         video_writer.write_video(frame_generator=processed_frames)
 
 
-if __name__ == "__main__":
-    input_path = "/home/pierresendorek/projets/job/aive/data/MISS DIOR – The new Eau de Parfum.mp4"
-    output_path = "/home/pierresendorek/projets/job/aive/data/out.mp4"
-
-
-
-

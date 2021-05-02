@@ -22,7 +22,3 @@ class IndexToCategory:
             return "None"
 
 
-
-if __name__ == "__main__":
-    # print(IndexToCategory().get_category(1))
-    print(IndexToCategory().get_index("person"))
