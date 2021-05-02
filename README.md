@@ -19,5 +19,11 @@ Then, launch the program with :
 
 ```
 # bash
-python3 main.py --input-file /path/to/MISS\ DIOR\ –\ The\ new\ Eau\ de\ Parfum.mp4 --output-folder /path/to/output/folder
+python3 main.py --input-file /path/to/MISS\ DIOR\ –\ The\ new\ Eau\ de\ Parfum.mp4 --output-folder /output/folder
 ```
+
+Once launched, the output folder will contain 
+* a folder `frames` in which the rendered frames will be written 
+* a video with the same name than the input video.
+
+Since the process is long, we invite the user to look in the folder `frames`.
