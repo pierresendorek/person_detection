@@ -23,7 +23,8 @@ python3 main.py --input-file /path/to/MISS\ DIOR\ –\ The\ new\ Eau\ de\ Parfum
 ```
 
 Once launched, the output folder will contain 
-* a folder `frames` in which the rendered frames will be written 
-* a video with the same name than the input video, where the persons are surrounded by a white rectangle.
+* a video with the same name than the input video, where the persons are surrounded by a white rectangle
+* a folder `frames` in which the corresponding frames will be written during the processing. 
+
 
 Since the process is long, we invite the user to look in the folder `frames`.
