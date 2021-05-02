@@ -11,6 +11,7 @@ git clone https://github.com/pierresendorek/person_detection.git
 cd person_detection
 python3 -m venv ./venv/
 source ./venv/bin/activate
+pip install --upgrade pip      
 pip install -r requirements.txt
 ```
 
