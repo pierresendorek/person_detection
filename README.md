@@ -19,7 +19,7 @@ Then, launch the program with :
 
 ```
 # bash
-python3 main.py --input-file /path/to/MISS\ DIOR\ –\ The\ new\ Eau\ de\ Parfum.mp4 --output-folder /output/folder
+python3 main.py --input-file /path/to/MISS\ DIOR\ –\ The\ new\ Eau\ de\ Parfum.mp4 --output-folder /path/to/output/folder
 ```
 
 Once launched, the output folder will contain 
