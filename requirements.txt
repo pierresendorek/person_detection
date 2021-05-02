@@ -1,0 +1,5 @@
+tensorflow==2.4.1
+opencv-python==4.5.1.48
+tensorflow-hub==0.12.0
+matplotlib==3.3.4
+
